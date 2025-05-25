@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppHotel", "MauiAppHotel\MauiAppHotel.csproj", "{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppHotel", "MauiAppHotel\MauiAppHotel.csproj", "{BE007C8F-B121-4672-AEFE-56C93A3798DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49CB2B48-43BE-41F3-BDD1-A1EF2EFE243B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE007C8F-B121-4672-AEFE-56C93A3798DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {27F941A5-0654-416C-AAA0-A0AF756FE284}
+		SolutionGuid = {2C695BCF-A56F-4F26-97E7-C51DD2C34259}
 	EndGlobalSection
 EndGlobal

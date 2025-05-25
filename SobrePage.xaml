@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobrePage"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Transparent">
+
+    <Grid>
+        <Image Source="C:\DEV\MauiAppHotel\MauiAppHotel\Resources\Images\fachada_mmr_desktop.jpg"
+               Aspect="AspectFill"
+               Opacity="0.6"
+               InputTransparent="True"/>
+        
+        <VerticalStackLayout Padding="10"
+                             VerticalOptions="StartAndExpand">
+
+            <Label Text="Sobre o Grupo"
+                   Padding="10"
+                   FontSize="15"
+                   FontFamily="OpenSans-Regular.ttf"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"/>
+
+            <Label Text="ALVORADA PALM HALL"
+                   Padding="15" 
+                   FontSize="26"
+                   FontFamily="OpenSans-Regular.ttf"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"/>
+
+        </VerticalStackLayout>
+        <VerticalStackLayout Spacing="8" Padding="20" VerticalOptions="EndAndExpand">
+            <Label Text="Fundado em 22 de março de 2008, o Alvorada Palm Hall consolidou-se como uma referência única em um cenário de demanda crescente por serviços de alta qualidade e oportunidades de negócios. Com uma estrutura moderna e flexível de 44 mil m², ele oferece uma gama completa de serviços com padrão de hotelaria internacional, redefinindo o setor."
+                   TextColor="Black"
+                   FontSize="14"
+                   FontAttributes="Bold"/>
+
+            <Label Text="VISÃO" HorizontalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            
+            <Label Text="Ser a marca de hotel mais admirada no Brasil."
+                   FontSize="14"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+
+            <Label Text="MISSÃO" HorizontalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            
+            <Label Text="Ser referência de serviços e inovação em hotelaria."
+                   FontSize="14"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+
+            <Label Text="VALORES" HorizontalOptions="Center"
+                   FontSize="16"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+            
+            <Label Text="Trabalhar sempre com simplicidade, transparência, integridade, ética e respeito socioambiental para atender aos interesses de nossos colaboradores, clientes, investidores e comunidade."
+                   FontSize="14"
+                   TextColor="Black" 
+                   FontAttributes="Bold"/>
+            
+            <Button Text="Home" Margin="10" TextColor="White"
+                FontAttributes="Bold" Clicked="Button_Clicked"
+                FontFamily="OpenSans-Regular.ttf"
+                HorizontalOptions="Center"
+                Background="Black"/>
+            
+        </VerticalStackLayout>
+        
+
+    </Grid>
+</ContentPage>

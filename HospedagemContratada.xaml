@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.HospedagemContratada"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Transparent">
+    
+    <Grid RowDefinitions="*,Auto">
+        <Image Source="quarto.jpg"  Aspect="AspectFill"
+               Opacity="0.7"
+               InputTransparent="True"
+               Grid.RowSpan="2" />
+        
+        <VerticalStackLayout Grid.Row="0" VerticalOptions="Center" Padding="11">
+            <Label Text=" SUÍTE " Padding="10"
+                   TextColor="Black"
+                   FontFamily="opensans"
+                   FontSize="25"
+                   HorizontalOptions="Center"/>
+
+            <Label Text= "SUPER LUXO" Padding="10"
+                   TextColor="Black"
+                   FontFamily="opensans"
+                   FontSize="35"
+                   HorizontalTextAlignment="Center"/>
+
+            <Frame Margin="38" Background="Transparent" BorderColor="Black">
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
+                    <HorizontalStackLayout>
+                        <Label Text="Adultos:" FontAttributes="Bold"/>
+                        <Label Text=" 2" TextColor="Black" />
+                    </HorizontalStackLayout>
+                    
+                    <HorizontalStackLayout>
+                        <Label Text="Crianças:" FontAttributes="Bold"/>
+                        <Label Text=" 1" TextColor="Black" />
+                    </HorizontalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame Margin="20" HorizontalOptions="Center" Background="Transparent" BorderColor="Black">
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="Auto,Auto" ColumnSpacing="20" RowSpacing="3" HorizontalOptions="Center">
+                    <Label Grid.Row="0" Grid.Column="0" Text="Check-in:"  FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="Check-out:" FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Estádia:"   FontAttributes="Bold"/>
+
+                    <Label Grid.Row="1" Grid.Column="0" Text="27/05/2025" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="30/05/2025" />
+                    <Label Grid.Row="1" Grid.Column="2" Text="3" HorizontalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <Frame Margin="20" HorizontalOptions="Center" Background="Transparent" BorderColor="Black">
+                <HorizontalStackLayout>
+                    <Label Text="Valor Total:" FontAttributes="Bold"/>
+                    <Label Text=" R$750,00" />
+                </HorizontalStackLayout>
+            </Frame>
+
+                   
+
+        <Button Text="Voltar" Margin="20" Padding="18,0"
+                TextColor="White"
+                FontFamily="OpenSans-Regular"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"
+                BackgroundColor="Black"
+                BorderColor="Black" BorderWidth="1"/>
+            
+ </VerticalStackLayout>
+    </Grid>
+</ContentPage>
