@@ -19,7 +19,7 @@
                    HorizontalOptions="Center"/>
 
             <Label Text= "SUPER LUXO" Padding="10"
-                   TextColor="Black"
+                   TextColor="White"
                    FontFamily="opensans"
                    FontSize="35"
                    HorizontalTextAlignment="Center"/>
